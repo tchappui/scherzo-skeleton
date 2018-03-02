@@ -1,0 +1,13 @@
+{
+    "name": "tchappui/scherzo-skeleton",
+    "description": "Scherzo-skeleton is a minimal project structure to quick-start projects using the Scherzo educational web framework.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thierry Chappuis",
+            "email": "thierry@chappuis.io"
+        }
+    ],
+    "require": {}
+}
