@@ -3,7 +3,6 @@
     "description": "Scherzo-skeleton is a minimal project structure to quick-start projects using the Scherzo educational web framework.",
     "type": "project",
     "license": "MIT",
-    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Thierry Chappuis",
@@ -22,5 +21,9 @@
         "tchappui/scherzo-query": "dev-master",
         "tchappui/scherzo-routing": "dev-master",
         "tchappui/scherzo-template": "dev-master"
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.4",
+        "codeception/mockery-module": "^0.2.3"
     }
 }
