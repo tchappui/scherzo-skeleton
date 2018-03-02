@@ -4,6 +4,18 @@
 
 actor: UnitTester
 modules:
-    enabled:
-        - Asserts
-        - \Helper\Unit
+  - Asserts
+  - Mockery
+  - Db:
+    dsn: 'mysql:host=%database.host%;dbname=%testing.database.name%;charset=%database.charset%'
+    dbname: %testing.database.name%
+    host: %database.host%
+    user: %database.user%
+    password: %database.password%
+    charset: %database.charset%
+    dump: 'tests/_data/dump.sql'
+    populate: true
+    cleanup: true
+    #populator: 'mysql -u $user --password=$password testskeleton < $dump'
+    reconnect: false
+  - \Helper\Unit

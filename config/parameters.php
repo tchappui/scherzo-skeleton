@@ -19,6 +19,5 @@ return [
     'database.charset' => 'utf8mb4'
     // database used by the unit tests
     'testing.database.name' => 'testskeleton',
-    'testing.database.charset' => 'utf8mb4'
 ];
 
