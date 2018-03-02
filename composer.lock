@@ -1,0 +1,338 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "bb49d96a8796acefe2912d7fbbe14da4",
+    "packages": [
+        {
+            "name": "tchappui/scherzo-controller",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-controller.git",
+                "reference": "eefe4584d3c354126267d39c37af5f1e28266513"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-controller/zipball/eefe4584d3c354126267d39c37af5f1e28266513",
+                "reference": "eefe4584d3c354126267d39c37af5f1e28266513",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-controller is the base controller component used by the Scherzo educational web framework.",
+            "time": "2018-03-02T09:17:08+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-dbal",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-dbal.git",
+                "reference": "e625facf0e916fae577bfa547ab0b80cf8a60dd0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-dbal/zipball/e625facf0e916fae577bfa547ab0b80cf8a60dd0",
+                "reference": "e625facf0e916fae577bfa547ab0b80cf8a60dd0",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-dbal is the database abstraction layer user by the Scherzo education web framework.",
+            "time": "2018-03-02T09:19:44+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-di",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-di.git",
+                "reference": "a41fde6f9a02604dab35b64324263fb9ede60893"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-di/zipball/a41fde6f9a02604dab35b64324263fb9ede60893",
+                "reference": "a41fde6f9a02604dab35b64324263fb9ede60893",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-di is the dependency injection container used by the Scherzo educational web framework.",
+            "time": "2018-03-02T09:22:14+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-error",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-error.git",
+                "reference": "09347edb889a34f419601f19ff9eabe064cb8423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-error/zipball/09347edb889a34f419601f19ff9eabe064cb8423",
+                "reference": "09347edb889a34f419601f19ff9eabe064cb8423",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-error is the error handling component used by the Scherzo educational web framework.",
+            "time": "2018-03-02T09:23:57+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-http-kernel",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-http-kernel.git",
+                "reference": "8e7b33e180dac0e122cdc1803cf248594a49a31e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-http-kernel/zipball/8e7b33e180dac0e122cdc1803cf248594a49a31e",
+                "reference": "8e7b33e180dac0e122cdc1803cf248594a49a31e",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-http-kernel is the web application kernel component used by the Scherzto educational web framework.",
+            "time": "2018-03-02T09:28:02+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-http-message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-http-message.git",
+                "reference": "3d6185f03030ba041570048f75efab573e55abad"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-http-message/zipball/3d6185f03030ba041570048f75efab573e55abad",
+                "reference": "3d6185f03030ba041570048f75efab573e55abad",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-http-message is a PSR7-compliant request/response component developed for the Scherzo educational webb framework.",
+            "time": "2018-03-02T09:30:14+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-migration",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-migration.git",
+                "reference": "dba2a3ae23e409715e8aa9b2ca58054e0ace9c55"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-migration/zipball/dba2a3ae23e409715e8aa9b2ca58054e0ace9c55",
+                "reference": "dba2a3ae23e409715e8aa9b2ca58054e0ace9c55",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-migration is the database migration component used by the Scherzo education web framework.",
+            "time": "2018-03-02T09:32:38+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-orm",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-orm.git",
+                "reference": "be3c34184491e373462fe462f37b9e318236e29b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-orm/zipball/be3c34184491e373462fe462f37b9e318236e29b",
+                "reference": "be3c34184491e373462fe462f37b9e318236e29b",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-orm is the basic object relational mapper component used by the Scherzo educational web framework.",
+            "time": "2018-03-02T09:35:58+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-query",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-query.git",
+                "reference": "c11ef3204529a8eec62a5a0ce1686df5d647472e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-query/zipball/c11ef3204529a8eec62a5a0ce1686df5d647472e",
+                "reference": "c11ef3204529a8eec62a5a0ce1686df5d647472e",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-query is the query building component used by the Scherzo educational web framework.",
+            "time": "2018-03-02T09:37:57+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-routing",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-routing.git",
+                "reference": "8a35259df84ec3ae22695610f69be8408afe27a6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-routing/zipball/8a35259df84ec3ae22695610f69be8408afe27a6",
+                "reference": "8a35259df84ec3ae22695610f69be8408afe27a6",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-routing is the router component used by the Scherzo educational we framework.",
+            "time": "2018-03-02T09:39:23+00:00"
+        },
+        {
+            "name": "tchappui/scherzo-template",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tchappui/scherzo-template.git",
+                "reference": "cd01b0cf83379d23ae102db6738684f4927b5e07"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tchappui/scherzo-template/zipball/cd01b0cf83379d23ae102db6738684f4927b5e07",
+                "reference": "cd01b0cf83379d23ae102db6738684f4927b5e07",
+                "shasum": ""
+            },
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Thierry Chappuis",
+                    "email": "thierry@chappuis.io"
+                }
+            ],
+            "description": "Scherzo-template is the templating component used by the Scherzo educational web framework.",
+            "time": "2018-03-02T09:41:15+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "tchappui/scherzo-controller": 20,
+        "tchappui/scherzo-dbal": 20,
+        "tchappui/scherzo-di": 20,
+        "tchappui/scherzo-error": 20,
+        "tchappui/scherzo-http-kernel": 20,
+        "tchappui/scherzo-http-message": 20,
+        "tchappui/scherzo-migration": 20,
+        "tchappui/scherzo-orm": 20,
+        "tchappui/scherzo-query": 20,
+        "tchappui/scherzo-routing": 20,
+        "tchappui/scherzo-template": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
